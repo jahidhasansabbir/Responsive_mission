@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header,
+main {
+    margin: 0 12%;
+}
+
+/* header section styles */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.bar {
+    width: 4px;
+    background: #FF5959;
+    height: 124px;
+}
+.text-container{
+    width: 50%;
+}
+.heading-container {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.heading-first {
+    color: #333;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.heading-last {
+    color: #FFAD5A;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.text-container p {
+    color: #3E3E3E;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.text-container button {
+    border-radius: 5px;
+    background: #FF5959;
+    padding: 12px 18px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 32px;
+}
+.image-container{
+    width: 50%;
+}
+.image-container img{
+    width: 100%;
+}
+
+/* My mission styles */
+.mission{
+    margin: 40px 0;
+}
+.mission h2{
+    color: #13103A;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
+.mission span{
+    color: #FFAD5A;
+}
+.card{
+    
+    border-radius: 25px;
+    background: rgba(79, 157, 166, 0.10);
+    padding: 32px;
+}
+.card h4{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 24px 0;
+}
+.card p{
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card img{
+    width: 127px;
+    height: 127px;
+}
+.card-container{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .hero, .card-container{
+        flex-direction: column-reverse;
+    }
+    header, main{
+        margin: 0 5%;
+    }
+    .image-container,
+    .text-container{
+        width: 100%;
+    }
+    .heading-first,
+    .heading-last{
+        font-size: 48px;
+    }
+}

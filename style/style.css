@@ -25,7 +25,7 @@ main {
     background: #FF5959;
     height: 124px;
 }
-.text-container{
+.hero .text-container{
     width: 50%;
 }
 .heading-container {
@@ -112,15 +112,72 @@ font-weight: 700;
     gap: 32px;
     align-items: center;
 }
+/* about section style */
+.about{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 80px 0;
+}
+.about .text-container h3{
+    color: #333;
+font-size: 36px;
+font-weight: 700;
+}
+
+.about .img-container img{
+    width: 100%;
+}
+.Community{
+    flex-direction: row-reverse;
+}
+/* application section styles */
+.application .application-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin: 50px 0;
+}
+.application .img-container img{
+    width: 100%;
+}
+.application .img-container{
+    width: 60%;
+}
+.application .text-container{
+    width: 100%;
+}
+.application h2{
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.application span, .application .text-container span{
+   color: #FFAD5A;
+}
+.application .text-container h3{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
 @media screen and (max-width: 576px) {
     .hero, .card-container{
         flex-direction: column-reverse;
+    }
+    .about, 
+    .application .application-container{
+        flex-direction: column;
+        gap: 20px
     }
     header, main{
         margin: 0 5%;
     }
     .image-container,
-    .text-container{
+    .hero .text-container,
+    .application .img-container{
         width: 100%;
     }
     .heading-first,

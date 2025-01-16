@@ -1,187 +1,219 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 header,
 main {
-    margin: 0 12%;
+  margin: 0 12%;
 }
 
 /* header section styles */
-.hero{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
 .bar {
-    width: 4px;
-    background: #FF5959;
-    height: 124px;
+  width: 4px;
+  background: #ff5959;
+  height: 124px;
 }
-.hero .text-container{
-    width: 50%;
+.hero .text-container {
+  width: 50%;
 }
 .heading-container {
-    display: flex;
-    align-items: center;
-    gap: 13px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
 
 .heading-first {
-    color: #333;
-    font-size: 60px;
-    font-weight: 400;
-    margin-bottom: 20px;
+  color: #333;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .heading-last {
-    color: #FFAD5A;
-    font-size: 60px;
-    font-weight: 400;
+  color: #ffad5a;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 .text-container p {
-    color: #3E3E3E;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 32px;
+  color: #3e3e3e;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
 }
 
 .text-container button {
-    border-radius: 5px;
-    background: #FF5959;
-    padding: 12px 18px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    margin-bottom: 32px;
+  border-radius: 5px;
+  background: #ff5959;
+  padding: 12px 18px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 32px;
 }
-.image-container{
-    width: 50%;
+.image-container {
+  width: 50%;
 }
-.image-container img{
-    width: 100%;
+.image-container img {
+  width: 100%;
 }
 
 /* My mission styles */
-.mission{
-    margin: 40px 0;
+.mission {
+  margin: 40px 0;
 }
-.mission h2{
-    color: #13103A;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
+.mission h2 {
+  color: #13103a;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
-.mission span{
-    color: #FFAD5A;
+.mission span {
+  color: #ffad5a;
 }
-.card{
-    
-    border-radius: 25px;
-    background: rgba(79, 157, 166, 0.10);
-    padding: 32px;
+.card {
+  border-radius: 25px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 32px;
 }
-.card h4{
-    color: #000;
-    font-size: 24px;
-    font-weight: 600;
-    margin: 24px 0;
+.card h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 24px 0;
 }
-.card p{
-    color: #424242;
-    font-size: 16px;
-    font-weight: 400;
+.card p {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
 }
-.card img{
-    width: 127px;
-    height: 127px;
+.card img {
+  width: 127px;
+  height: 127px;
 }
-.card-container{
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-    align-items: center;
+.card-container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
 }
 /* about section style */
-.about{
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    margin: 80px 0;
+.about {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin: 80px 0;
 }
-.about .text-container h3{
-    color: #333;
-font-size: 36px;
-font-weight: 700;
+.about .text-container h3 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
 }
 
-.about .img-container img{
-    width: 100%;
+.about .img-container img {
+  width: 100%;
 }
-.Community{
-    flex-direction: row-reverse;
+.Community {
+  flex-direction: row-reverse;
 }
 /* application section styles */
-.application .application-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-    margin: 50px 0;
+.application .application-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin: 50px 0;
 }
-.application .img-container img{
-    width: 100%;
+.application .img-container img {
+  width: 100%;
 }
-.application .img-container{
-    width: 60%;
+.application .img-container {
+  width: 60%;
 }
-.application .text-container{
-    width: 100%;
+.application .text-container {
+  width: 100%;
 }
-.application h2{
-    color: #000;
+.application h2 {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.application span,
+.application .text-container span {
+  color: #ffad5a;
+}
+.application .text-container h3 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+/* footer section styles */
+footer {
+  background: #0b0d17;
+  padding: 46px 0;
+}
+footer h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+footer span {
+  color: #ff5959;
+}
+footer p{
+    color: #D9DBE1;
+font-size: 14px;
+font-weight: 400;
+}
+footer>div{
+    margin: 0 auto;
+    width: 350px;
     text-align: center;
-    font-size: 48px;
-    font-weight: 700;
 }
-.application span, .application .text-container span{
-   color: #FFAD5A;
-}
-.application .text-container h3{
-    color: #000;
-    font-size: 48px;
-    font-weight: 700;
-    margin: 20px 0;
-}
+/* Responsive for small device */
 @media screen and (max-width: 576px) {
-    .hero, .card-container{
-        flex-direction: column-reverse;
-    }
-    .about, 
-    .application .application-container{
-        flex-direction: column;
-        gap: 20px
-    }
-    header, main{
-        margin: 0 5%;
-    }
-    .image-container,
-    .hero .text-container,
-    .application .img-container{
-        width: 100%;
-    }
-    .heading-first,
-    .heading-last{
-        font-size: 48px;
-    }
+  .hero,
+  .card-container {
+    flex-direction: column-reverse;
+  }
+  .about,
+  .application .application-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  header,
+  main {
+    margin: 0 5%;
+  }
+  .image-container,
+  .hero .text-container,
+  .application .img-container {
+    width: 100%;
+  }
+  .heading-first,
+  .heading-last {
+    font-size: 48px;
+  }
+  footer>div{
+    width: calc(100% - 10%);
+    margin: 0 5%;
+  }
 }
